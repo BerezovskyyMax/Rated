@@ -1,0 +1,37 @@
+.subscriptionForm{
+    padding-top: 2rem;
+    color: #F7F7F7;
+    font-size: 20px;
+}
+.container-fluid{
+    padding-top: 2rem;
+    text-align: center;
+    background-color: #47525E;
+}
+.btn, .btn:hover {
+    width: 50%;
+    margin: .3rem;
+    padding: .3rem;
+    font-size: 1.5rem;
+    background-color: #F7F7F7;
+    color: #47525E;
+}
+.form-control-email {
+    width: 50%;
+    display: inline;
+}
+.list-group-item, .list-group-item.active{
+    background-color: #47525E;
+    color: #F7F7F7;
+    border-color: rgba(0,0,0,.125);
+}
+.list-group-item:hover{
+    background-color: rgb(66, 75, 85);
+    color: #F7F7F7;
+    border-color: rgba(0,0,0,.125);
+}
+.copyright{
+    color: #F7F7F7;
+    margin-top: 2rem;
+    font-size: 15px;
+}
