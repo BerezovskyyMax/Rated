@@ -24,3 +24,9 @@
 .last-item {
   padding-right: 50px;
 }
+
+.navbar.navbar-expand-md.bg-dark.navbar-dark{
+  z-index: 3;
+  position: sticky;
+  top: 0px;
+}

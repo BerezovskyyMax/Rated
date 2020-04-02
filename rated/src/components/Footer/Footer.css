@@ -1,11 +1,12 @@
 .subscriptionForm{
     padding-top: 2rem;
-    color: #F7F7F7;
+    color: #aeb2b8;
     font-size: 20px;
 }
-.container-fluid{
+.footerContainer{
+    margin-top: 20px;
     text-align: center;
-    background-color: #47525E;
+    background-color: #47525e;
 }
 .btn, .btn:hover {
     width: 50%;
@@ -13,24 +14,27 @@
     padding: .3rem;
     font-size: 1.5rem;
     background-color: #F7F7F7;
-    color: #47525E;
+    color: #47525e;
 }
 .form-control-email {
     width: 50%;
     display: inline;
 }
 .list-group-item, .list-group-item.active{
-    background-color: #47525E;
-    color: #F7F7F7;
+    background-color: #47525e;
+    color: #aeb2b8;
     border-color: rgba(0,0,0,.125);
 }
 .list-group-item:hover{
     background-color: rgb(66, 75, 85);
-    color: #F7F7F7;
+    color: #aeb2b8;
     border-color: rgba(0,0,0,.125);
 }
 .copyright{
-    color: #F7F7F7;
+    color: #aeb2b8;
     margin-top: 2rem;
     font-size: 15px;
+}
+.navMenu{
+    padding-top: 2rem;
 }

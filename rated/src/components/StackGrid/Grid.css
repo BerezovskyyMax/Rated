@@ -1,0 +1,13 @@
+.gridItem{
+  display: flexbox;
+  /* overflow-y: hidden; */
+  text-align: center;
+  height: 200px;
+  margin: 10px;
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+img{
+  border-radius: 20px;
+}

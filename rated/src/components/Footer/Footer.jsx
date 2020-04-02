@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Footer.css';
 import {ListGroup} from 'react-bootstrap';
 import { Row, Col} from 'react-bootstrap';
@@ -7,10 +7,10 @@ import {Button} from 'react-bootstrap';
 
 function Footer(){
     return (
-        <div className = "container-fluid">
+        <div className = "container-fluid footerContainer">
             <Row >
                 <Col md = {3}>
-                    <ListGroup variant="flush">
+                    <ListGroup className = "navMenu" variant="flush">
                         <ListGroup.Item action href = "#link1">Home</ListGroup.Item>
                         <ListGroup.Item action href = "#link2">About us</ListGroup.Item>
                         <ListGroup.Item action href = "#link3">Features</ListGroup.Item>
@@ -18,7 +18,7 @@ function Footer(){
                     </ListGroup>
                 </Col>
                 <Col md = {3}>
-                    <ListGroup variant="flush">
+                    <ListGroup className = "navMenu" variant="flush">
                         <ListGroup.Item action href = "#link1">Blog</ListGroup.Item>
                         <ListGroup.Item action href = "#link2">Comunity</ListGroup.Item>
                         <ListGroup.Item action href = "#link3">Privacy</ListGroup.Item>
